@@ -14,83 +14,76 @@ print u"login success"
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-helpMessage ="""Self BotBy.Sai
- ~~~~~~~ Command ~~~~~~~
-¤  Tagall     - Tagall Member Group
-¤  Lurking    - Set Point Read
-¤  Result     - Reading Point
-¤  Ginfo      - Info Grup
-
- ~~~~~~ Command Admin ~~~~~~
-¤  Glist      - List Group BOT
-¤  Cancel     - Cancel All Pending Grup
-¤  Mid @      - Get MID 
-¤  Invite     - Invite Via Send Contact
-¤  Invite:    - Via MID
-¤  Whitelist @ - Via Tag
-¤  Whitelist:  - Via Mid
-¤  Whitelist   - Via Send Contact
-¤  Blacklist @ - Via Tag
-¤  Blacklist:  - Via Mid
-¤  Blacklist   - Via Send Contact
-¤  Clear ban   - Delete All Blacklist
-¤  Link on     - Open QR
-¤  Link off    - Close QR
-¤  Gurl        - Open QR And Get Link
-¤  Url         - Get QR Link
-¤  Gname       - Change Name Group
-¤  Banlist     - Cek Tersangka Kriminal
-¤  Details grup - Via Gid
-¤  Inviteme:    - Via Gid
-¤  Info grup
-¤  Clear grup
-
- ~~~~~ Command for kicker ~~~~~ 
-¤  Nuke
-¤  Ratakan
-¤  Kick @       - Via Tag
-¤  Kick:        - Via MID
-
- ~~~~~~ Command Player ~~~~~~
-¤  Bc:ct 
-¤  Bc:grup
-¤  Block @
-¤  Blocklist
-¤  Spam on/off
-¤  Uni
-¤  Bot:ct      -  Contact BOT
-¤  Bot:grup    - Grup Joined BOT
-¤  Allname:    - Change All Name BOT
-¤  Allbio:     - Change All Bio BOT
-¤  Bot sp      - Tes Speed BOT
-¤  Speed       - Tes Speed
-¤  Mycopy @    - Copy Profile 
-¤  Mybackup @  - Backup Profile
-
- ~~~~~~ Command Setting ~~~~~~    
-¤  [Like:on/off]     
-¤  [Add on/off] 	 
-¤  [Auto join on/off] 	   
-¤  [Contact on/off] 	
-¤  [Leave on/off]  
-¤  [Share on/off]           
-¤  [Add on/off] 		   
-¤  [Jam on/off]			   
-¤  [Jam say:]			   
-¤  [Com on/off]	
-¤  [Message set:]	
-¤  [Comment set:]	
-¤  [Pesan add:]	
-
- ~~~~ Auto Setting Command ~~~~~    
-¤  [Panick:on/off]      
-¤  [Protect on]			   
-¤  [Qrprotect on/off]			   
-¤  [Inviteprotect on/off]			   
-¤  [Cancelprotect on/off]		   
-¤  [Staff add/remove @]	   
- ~~~~~~~~ For Admin ~~~~~~~~
-  
+helpMessage ="""═════════════════════════
+SELF STAR BOT
+╔═════════════════════════
+║􀜁􀇔􏿿 Tagall     
+║􀜁􀇔􏿿  Lurking    
+║􀜁􀇔􏿿  Result     
+║􀜁􀇔􏿿  Ginfo      
+║􀜁􀇔􏿿  Glist      
+║􀜁􀇔􏿿  Cancel     
+║􀜁􀇔􏿿  Mid @       
+║􀜁􀇔􏿿  Invite     
+║􀜁􀇔􏿿  Invite:    
+║􀜁􀇔􏿿  Wl on @ 
+║􀜁􀇔􏿿  Wl on:  
+║􀜁􀇔􏿿  Wl on   
+║􀜁􀇔􏿿  Bl on @ 
+║􀜁􀇔􏿿  Bl on:  
+║􀜁􀇔􏿿  Bl on   
+║􀜁􀇔􏿿  Clearb  
+║􀜁􀇔􏿿  Buka
+║􀜁􀇔􏿿  Tutup    
+║􀜁􀇔􏿿  Gurl       
+║􀜁􀇔􏿿  Url        
+║􀜁􀇔􏿿  Gname      
+║􀜁􀇔􏿿  Banlist     
+║􀜁􀇔􏿿  Details grup 
+║􀜁􀇔􏿿  Inviteme:  
+║􀜁􀇔􏿿  Info grup
+║􀜁􀇔􏿿  Clear grup 
+║􀜁􀇔􏿿  Nuke
+║􀜁􀇔􏿿  Ratakan
+║􀜁􀇔􏿿  Kick @      
+║􀜁􀇔􏿿  Kick:       
+║􀜁􀇔􏿿  Bc:ct 
+║􀜁􀇔􏿿  Bc:grup
+║􀜁􀇔􏿿  Block @
+║􀜁􀇔􏿿  Blocklist
+║􀜁􀇔􏿿  Spam on/off
+║􀜁􀇔􏿿  Uni
+║􀜁􀇔􏿿  Bot:ct      
+║􀜁􀇔􏿿  Bot:grup    
+║􀜁􀇔􏿿  Allname:    
+║􀜁􀇔􏿿  Allbio:     
+║􀜁􀇔􏿿  Mycopy @     
+║􀜁􀇔􏿿  Mybackup @       
+║􀜁􀇔􏿿  Like:on/off     
+║􀜁􀇔􏿿  Add on/off 	 
+║􀜁􀇔􏿿  Auto join on/off 	   
+║􀜁􀇔􏿿  Contact on/off	
+║􀜁􀇔􏿿  Leave on/off 
+║􀜁􀇔􏿿  Share on/off           
+║􀜁􀇔􏿿  Add on/off 		   
+║􀜁􀇔􏿿  Jam on/off			   
+║􀜁􀇔􏿿  Jam say:			   
+║􀜁􀇔􏿿  Com on/off	
+║􀜁􀇔􏿿  Message set:	
+║􀜁􀇔􏿿  Comment set:	
+║􀜁􀇔􏿿  Pesan add:	    
+║􀜁􀇔􏿿  Panick:on/off      
+║􀜁􀇔􏿿  Protect on			   
+║􀜁􀇔􏿿  Qrprotect on/off			   
+║􀜁􀇔􏿿  Inviteprotect on/off			   
+║􀜁􀇔􏿿  Cancelprotect on/off		   
+║􀜁􀇔􏿿  Staff add/remove @	   
+╚═════════════════════════
+Support
+ Team Star Bot 
+Owner Team 
+ line.me/ti/p/~ebisuindo
+═════════════════════════  
 """
 KAC=[cl,ki,ki2,ki3,ki4,ki5]
 mid = cl.getProfile().mid
@@ -112,7 +105,7 @@ wait = {
     'autoAdd':True,
     'message':" ",
     "lang":"JP",
-    "comment":"Auto Like by.Sai",
+    "comment":"Auto Like by Bii",
     "commentOn":False,
     "likeOn":False,
     "commentBlack":{},
@@ -532,7 +525,7 @@ def bot(op):
                 msg.contentType = 13
                 msg.contentMetadata = {'mid': gCreator}
                 cl.sendMessage(msg)
-		cl.sendText(msg.to,"แอดห้อง")
+		cl.sendText(msg.to,"Itu pembuat group")
 #--------------------------------------------------------
             elif "Mid: " in msg.text:
                 mmid = msg.text.replace("Mid: ","")
@@ -542,7 +535,7 @@ def bot(op):
             elif msg.text.lower() == 'contact on':
                 if wait["contact"] == True:
                     if wait["lang"] == "JP":
-                        cl.sendText(msg.to,"Sudah On")
+                        cl.sendText(msg.to,"『Prosses』\n『Contact Aktif』")
                     else:
                         cl.sendText(msg.to,"It is already open")
                 else:
@@ -554,7 +547,7 @@ def bot(op):
             elif msg.text.lower() == 'contact off':
                 if wait["contact"] == False:
                     if wait["lang"] == "JP":
-                        cl.sendText(msg.to,"sudah off ô€œô€„‰👈")
+                        cl.sendText(msg.to,"『Prosses』\n『Contact Close』")
                     else:
                         cl.sendText(msg.to,"It is already off ô€œ��ô€„‰👈")
                 else:
@@ -566,7 +559,7 @@ def bot(op):
             elif msg.text.lower() == 'protect on':
                 if wait["protect"] == True:
                     if wait["lang"] == "JP":
-                        cl.sendText(msg.to,"Ini sudah on 􀜁􀇔􏿿👈")
+                        cl.sendText(msg.to,"『Prosses』\n『Protection Group Aktif』")
                     else:
                         cl.sendText(msg.to,"Hal ini sudah terbuka ô€¨👈")
                 else:
@@ -578,7 +571,7 @@ def bot(op):
             elif msg.text.lower() == 'qrprotect on':
                 if wait["linkprotect"] == True:
                     if wait["lang"] == "JP":
-                        cl.sendText(msg.to,"Ini sudah on 􀜁􀇔��👈")
+                        cl.sendText(msg.to,"『Prosses』\n『Protection Qr Aktif』")
                     else:
                         cl.sendText(msg.to,"Hal ini sudah terbuka ô€¨👈")
                 else:
@@ -590,7 +583,7 @@ def bot(op):
             elif msg.text.lower() == 'inviteprotect on':
                 if wait["inviteprotect"] == True:
                     if wait["lang"] == "JP":
-                        cl.sendText(msg.to,"Ini sudah on 􀜁􀇔􏿿👈")
+                        cl.sendText(msg.to,"『Prosses』\n『Protection Invite Aktif』")
                     else:
                         cl.sendText(msg.to,"Hal ini sudah terbuka ô€¨����👈")
                 else:
