@@ -10,56 +10,56 @@ from gtts import gTTS
 
 cl = LINETCR.LINE() #Luffy
 #cl.login(qr=True)
-cl.login(token="")#1
+cl.login(token="EFClaj2LaRuITUNNgMY0.nvD/uRjfRoBETK4ZOWhZSa.ttxcfFDhlDp1ym3iLRrhs+CnvKHuReHm01puf8rBC7Q=")#1
 cl.loginResult()
 
 ki = LINETCR.LINE() #Zorro
 #ki.login(qr=True)
-ki.login(token="")#2
+ki.login(token="EF1d8o6RB87ctamKstX4./Coef04cSd1Ymaih+V2ADa.nx3SVWShgUy++0FRO6cz+naKmArXCEYICZqL9dbxr4s=")#2
 ki.loginResult()
 
 kk = LINETCR.LINE() #Sanji
 #kk.login(qr=True)
-kk.login(token="")#3
+kk.login(token="EFWgszudgNN6oD4rNhtd.CNZNgt3iUc3fYRhn7Cibxq.TH0GRFirYnBzb4F1K1cduJTmXe1+gbgIMx7Whkb3smM=")#3
 kk.loginResult()
 
 kc = LINETCR.LINE() #Ussop
 #kc.login(qr=True)
-kc.login(token="")#4
+kc.login(token="EFG3PKUd5Mntu9eaFBA2.XhCwJBakhq3WIw4uZqu08G.TJyUkJEPWIgjwx2sfIIbzDhjxC6yt+io8jDjR5AJp+8=")#4
 kc.loginResult()
 
 ks = LINETCR.LINE() #Chooper
 #ks.login(qr=True)
-ks.login(token="")#5
+ks.login(token="EFWCvkjaDVQ5eZVVM42a.uA70OmZ6xGXhLjifkBHlgG.s/DcrljK2vI5x7uO4yVXgJ1ehSEPcgjhRXsgTGMNyyY=")#5
 ks.loginResult()
 
 k1 = LINETCR.LINE() #nami
 #k1.login(qr=True)
-k1.login(token="")#6
+k1.login(token="EFmkeIqD7k7Dk2BeZ937.4ciXpOp+ngV1ye23dcM5vW.NPXKH780rRnRn8Ll0xvrb7yuUASZoZamGl+BuOpwGq0=")#6
 k1.loginResult()
 
 k2 = LINETCR.LINE() #nico robin
 #k2.login(qr=True)
-k2.login(token="")#7
+k2.login(token="EFA8a4KnP4LxOOf6LoRb.bAXEGo6vXQI0VRhomlb3MW.MavNXz7bg+Y8XzWyfN14x0PFNgFKgJfPud3SwmTeFTY=")#7
 k2.loginResult()
 
 k3 = LINETCR.LINE() #
 #k3.login(qr=True)
-k3.login(token="")#8
+k3.login(token="EFbN8OH9MyxtymETqeZ9.4vNGKfbDYS0efY/RcqAJMq.QgEZVoUpYwMDsdnwOosrY5+K6rU5BYodu5/E17zasfI=")#8
 k3.loginResult()
 
 k4 = LINETCR.LINE() #
 #k4.login(qr=True)
-k4.login(token="")#9
+k4.login(token="EFowlIJVXfBDBWBoBTu9.sq7xakrN1v28/yW8CSq42q.YCt86gRQATF6h5+f1o7/jPBmcN8WFaaTmVNuADVJKJg=")#9
 k4.loginResult()
 
 k5 = LINETCR.LINE() #
 #k5.login(qr=True)
-k5.login(token="")#10
+k5.login(token="EFiLi8tBIww3AV4Wrzr7.t/IdFcgcW7pVEtQdsL6WzW.jD99s6M3CtQexV34FMStz1DlG39+7tE/jsi8lZ3cKFA=")#10
 k5.loginResult()
 
 satpam = LINETCR.LINE() # 
-satpam.login(token="")#satpam 
+satpam.login(token="EFZyXJjaDM0VG53Znpld.JZJ/1Jhb9oyNKqIA+uiyFq.1oGg/5yHXWhjdHHhGJk1STM5Aki/6Fq3+GYQL6/pfqQ=")#satpam 
 #satpam.login(qr=True)
 satpam.loginResult()
 
@@ -280,9 +280,9 @@ autoleaveroom = []
 targets = []
 Bots=[mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Imid]
 induk=[mid]
-Creator=["u31ef22df7f538df1d74dc7f756ef1a32","u9cc2323f5b84f9df880c33aa9f9e3ae1"]
-admin=["u31ef22df7f538df1d74dc7f756ef1a32","u9cc2323f5b84f9df880c33aa9f9e3ae1",mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Imid] #Krisna,kris,
-owner=["u31ef22df7f538df1d74dc7f756ef1a32","u9cc2323f5b84f9df880c33aa9f9e3ae1"]
+Creator=["u35577e52b245ace6deb64e33a301f3b0"]
+admin=["u35577e52b245ace6deb64e33a301f3b0",mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Imid] #Krisna,kris,
+owner=["u35577e52b245ace6deb64e33a301f3b0"]
 wait = {
     'contact':False,
     'autoJoin':True,
